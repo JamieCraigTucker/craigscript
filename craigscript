@@ -1,0 +1,448 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local CommandFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local Cmds = Instance.new("ScrollingFrame")
+local UIGradient_3 = Instance.new("UIGradient")
+local help = Instance.new("TextButton")
+local craig_combo = Instance.new("TextButton")
+local stick = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+CommandFrame.Name = "CommandFrame"
+CommandFrame.Parent = ScreenGui
+CommandFrame.BackgroundColor3 = Color3.fromRGB(76, 183, 255)
+CommandFrame.Position = UDim2.new(0.0391187035, 0, 0.358747989, 0)
+CommandFrame.Size = UDim2.new(0, 314, 0, 253)
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = CommandFrame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(56, 119, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(35, 255, 237)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(56, 119, 255))}
+UIGradient.Rotation = 90
+UIGradient.Parent = CommandFrame
+
+UITextSizeConstraint.Parent = CommandFrame
+
+TextLabel.Parent = CommandFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.181528658, 0, 0.0474308282, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Craig Script"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+
+TextButton.Parent = CommandFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 34, 5)
+TextButton.Position = UDim2.new(0.181528658, 0, 0.30039525, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.Arcade
+TextButton.Text = "CMD Buttons"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 25.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 33, 33)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(176, 23, 23)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 33, 33))}
+UIGradient_2.Parent = TextButton
+
+Cmds.Name = "Cmds"
+Cmds.Parent = ScreenGui
+Cmds.Active = true
+Cmds.BackgroundColor3 = Color3.fromRGB(65, 255, 7)
+Cmds.Position = UDim2.new(0.492356122, 0, 0.175762415, 0)
+Cmds.Size = UDim2.new(0, 308, 0, 255)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(111, 255, 0)), ColorSequenceKeypoint.new(0.27, Color3.fromRGB(64, 197, 1)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(29, 152, 2)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(111, 255, 0))}
+UIGradient_3.Parent = Cmds
+
+help.Name = ";help"
+help.Parent = Cmds
+help.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+help.Position = UDim2.new(0.175324678, 0, 0.114365965, 0)
+help.Size = UDim2.new(0, 200, 0, 50)
+help.Font = Enum.Font.SourceSans
+help.Text = ";help (Crash)"
+help.TextColor3 = Color3.fromRGB(0, 0, 0)
+help.TextSize = 14.000
+
+craig_combo.Name = ";craig_combo"
+craig_combo.Parent = Cmds
+craig_combo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+craig_combo.Position = UDim2.new(0.175324678, 0, 0.221508831, 0)
+craig_combo.Size = UDim2.new(0, 200, 0, 50)
+craig_combo.Font = Enum.Font.SourceSans
+craig_combo.Text = ";craig_combo"
+craig_combo.TextColor3 = Color3.fromRGB(0, 0, 0)
+craig_combo.TextSize = 14.000
+
+stick.Name = ";stick"
+stick.Parent = Cmds
+stick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stick.Position = UDim2.new(0.175324678, 0, 0.327447832, 0)
+stick.Size = UDim2.new(0, 200, 0, 50)
+stick.Font = Enum.Font.SourceSans
+stick.Text = ";stick"
+stick.TextColor3 = Color3.fromRGB(0, 0, 0)
+stick.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = Cmds
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Close.Position = UDim2.new(0.175324678, 0, 0.0132423751, 0)
+Close.Size = UDim2.new(0, 200, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+-- Scripts:
+
+local function QSSLKCW_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	game.Players:Chat("h [Craig Script Execution] Craig Script User joined!")
+	game.Players:Chat("ff me")
+	game.Players:Chat("god me")
+	game.Players:Chat("clr")
+	game.Players:Chat("fix")
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 6) == ";help" then 
+			wait(0.1)
+			game.Players:Chat("gear me 94794847")
+			game.Players:Chat("pm me Equip the tool")
+			game.Players:Chat("unblind all")
+			game.Players:Chat("clr")
+			game.Players:Chat("name all Crashed by Craig Script")
+			wait(2)
+			game.Players:Chat("h [Craig Script] Get better, crashed.")
+			wait(0.1)
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+			game.Players:Chat("size me 0.3")
+	
+		end
+	end)
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 12) == ";craig_combo" then
+			spamkill = true
+			game.Players:Chat("h [Craig Script] FNaF Music + Gear given.")
+			game.Players:Chat("gear me 000000000000000000000000000000000000000000000000000000000000000000000000000236438668")
+			game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
+		end
+	end)
+	
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 14) == ";stop_killspam" then
+			spamkill = true
+			game.Players:Chat("h [Craig Script] Ended Kill Spam.")
+		end
+	end)
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 9) == ";announce" then 
+			local text = string.sub(msg:lower(), 11)
+			game.Players:Chat("h [Craig's Script that is epic] "..text)
+		end
+	end)
+	
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 9) == ";spamkill" then 
+			local text = string.sub(msg:lower(), 11)
+			spamkill=false
+			game.Players:Chat("h [Craig Script] Started Kill Spam")
+			while spamkill == false do
+				game.Players:Chat("kill "..text)
+				wait(0.1)
+	
+	
+			end
+		end
+	end)
+	
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 5) == ";spam" then 
+			local text = string.sub(msg:lower(), 7)
+			spam=true
+			game.Players:Chat("h [Craig Script] Started Spam")
+			while spam == true do
+				game.Players:Chat(text)
+				wait(0.1)
+	
+	
+			end
+		end
+	end)
+	
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 5) == ";stop" then
+			spam = false
+			game.Players:Chat("h [Craig Script] Ended Spam.")
+		end
+	end)
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 5) == ";cmds" then
+			game.Players:Chat("pm me GUI Shows all current commands, this is in beta.")
+		end
+	end)
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 8) == ";kill_v2" then
+			local text = string.sub(msg:lower(), 10)
+			spam = false
+			game.Players:Chat("gear me 000000000000000000000000000000000000000000000000000000000000000000000000011999235")
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack:WaitForChild("SpecAlphaBiograftEnergySword"))
+			game.Players:Chat("unff "..text)
+			game.Players:Chat("reset "..text)
+			game.Players:Chat("speed "..text.." 0")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("tp me "..text)
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			wait(0.1)
+			game.Players:Chat("tp me "..text)
+			game.Players:Chat("tp "..text.." me")
+			game.Players:Chat("ungear me")
+			game.Players:Chat("god me")
+			game.Players:Chat("ff me")
+		end
+	end)
+	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 6) == ";stick" then
+			game.Players:Chat("sit me")
+			wait(0.05)
+			game.Players:Chat("punish me")
+			wait(0.05)
+			game.Players:Chat("jump me")
+			wait(0.05)
+			game.Players:Chat("unpunish me")
+		end
+	end)
+end
+coroutine.wrap(QSSLKCW_fake_script)()
+local function VXJYHI_fake_script() -- TextButton.SoundOnClick 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(VXJYHI_fake_script)()
+local function BDRXQE_fake_script() -- TextButton.Open 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Cmds.Visible=true
+	end)
+end
+coroutine.wrap(BDRXQE_fake_script)()
+local function MMBBHDP_fake_script() -- CommandFrame.Always Visible 
+	local script = Instance.new('LocalScript', CommandFrame)
+
+	n=0
+	
+	
+	while n == 0 do
+		script.Parent.Parent.CommandFrame.Visible=true
+	end
+end
+coroutine.wrap(MMBBHDP_fake_script)()
+local function EBCMGQC_fake_script() -- help.LocalScript 
+	local script = Instance.new('LocalScript', help)
+
+	game.Players:Chat("gear me 94794847")
+	game.Players:Chat("unblind all")
+	game.Players:Chat("clr")
+	game.Players:Chat("name all Crashed by Craig Script")
+	game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack:WaitForChild("VampireVanquisher"))
+	game.Players:Chat("h [Craig Script] Get better, crashed.")
+	wait(0.1)
+	game.Players:Chat("name all Crashed by Craig Script")
+	game.Players:Chat("name all Crashed by Craig Script")
+	game.Players:Chat("name all Crashed by Craig Script")
+	game.Players:Chat("name all Crashed by Craig Script")
+	game.Players:Chat("clr")
+	game.Players:Chat("clr")
+	game.Players:Chat("clr")
+	game.Players:Chat("clr")
+	game.Players:Chat("clr")
+	game.Players:Chat("h [Craig Script] Get better, crashed.")
+	game.Players:Chat("h [Craig Script] Get better, crashed.")
+	game.Players:Chat("h [Craig Script] Get better, crashed.")
+	wait(0.06)
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+	game.Players:Chat("size me 0.3")
+end
+coroutine.wrap(EBCMGQC_fake_script)()
+local function MCZW_fake_script() -- help.SoundOnClick 
+	local script = Instance.new('LocalScript', help)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(MCZW_fake_script)()
+local function KSHW_fake_script() -- craig_combo.LocalScript 
+	local script = Instance.new('LocalScript', craig_combo)
+
+	game.Players:Chat("h [Craig Script] FNaF Music + Gear given.")
+	game.Players:Chat("gear me 000000000000000000000000000000000000000000000000000000000000000000000000000236438668")
+	game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
+end
+coroutine.wrap(KSHW_fake_script)()
+local function XMZV_fake_script() -- craig_combo.SoundOnClick 
+	local script = Instance.new('LocalScript', craig_combo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(XMZV_fake_script)()
+local function CFQAPO_fake_script() -- stick.LocalScript 
+	local script = Instance.new('LocalScript', stick)
+
+	game.Players:Chat("sit me")
+	wait(0.05)
+	game.Players:Chat("punish me")
+	wait(0.05)
+	game.Players:Chat("jump me")
+	wait(0.05)
+	game.Players:Chat("unpunish me")
+end
+coroutine.wrap(CFQAPO_fake_script)()
+local function PNUFUP_fake_script() -- stick.SoundOnClick 
+	local script = Instance.new('LocalScript', stick)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(PNUFUP_fake_script)()
+local function XKDJXJ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Cmds.Visible=false
+	end)
+end
+coroutine.wrap(XKDJXJ_fake_script)()
+local function BNKMAY_fake_script() -- Close.SoundOnClick 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(BNKMAY_fake_script)()
