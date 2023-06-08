@@ -115,12 +115,12 @@ Close.TextSize = 14.000
 
 -- Scripts:
 
-local function EGVGFV_fake_script() -- CraigScript.LocalScript 
+local function AQEX_fake_script() -- CraigScript.LocalScript 
 	local script = Instance.new('LocalScript', CraigScript)
 
 	gearbanned = false
 	musicbanned = false
-	
+	kicking=false
 	
 	game.Players:Chat("h [Craig Script Execution] Craig Script User joined!")
 	game.Players:Chat("ff me")
@@ -457,30 +457,46 @@ local function EGVGFV_fake_script() -- CraigScript.LocalScript
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if string.sub(msg:lower(), 0, 11) == ";unbanmusic" then
 			
-			gearbanned=false
+			musicbanned=false
 			game.Players:Chat("h [Craig Script] Music Unbanned.")
 		end
 	end)
 	
+	
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 6) == ";pkick" then
+			local text = string.sub(msg:lower(), 8)
+			kicking=true
+			while kicking==true do
+				game.Players:Chat("gear "..text.." 253519495")
+			end
+			wait(30)
+			kicking=false
+			
+	
+			
+		end
+	end)
+	
 end
-coroutine.wrap(EGVGFV_fake_script)()
-local function TIHGZ_fake_script() -- TextButton.SoundOnClick 
+coroutine.wrap(AQEX_fake_script)()
+local function JAZYMS_fake_script() -- TextButton.SoundOnClick 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(TIHGZ_fake_script)()
-local function ZMAE_fake_script() -- TextButton.Open 
+coroutine.wrap(JAZYMS_fake_script)()
+local function VLDTWB_fake_script() -- TextButton.Open 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Cmds.Visible=true
 	end)
 end
-coroutine.wrap(ZMAE_fake_script)()
-local function ZTQOG_fake_script() -- CommandFrame.Always Visible 
+coroutine.wrap(VLDTWB_fake_script)()
+local function BMHLGVY_fake_script() -- CommandFrame.Always Visible 
 	local script = Instance.new('LocalScript', CommandFrame)
 
 	n=0
@@ -492,8 +508,8 @@ local function ZTQOG_fake_script() -- CommandFrame.Always Visible
 		script.Parent.Parent.CommandFrame.Visible=true
 	end
 end
-coroutine.wrap(ZTQOG_fake_script)()
-local function VYBLG_fake_script() -- help.LocalScript 
+coroutine.wrap(BMHLGVY_fake_script)()
+local function CDYY_fake_script() -- help.LocalScript 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -526,16 +542,16 @@ local function VYBLG_fake_script() -- help.LocalScript
 		game.Players:Chat("size me 0.3")
 	end)
 end
-coroutine.wrap(VYBLG_fake_script)()
-local function MTCPPW_fake_script() -- help.SoundOnClick 
+coroutine.wrap(CDYY_fake_script)()
+local function LCDLLMG_fake_script() -- help.SoundOnClick 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(MTCPPW_fake_script)()
-local function BMHO_fake_script() -- craig_combo.LocalScript 
+coroutine.wrap(LCDLLMG_fake_script)()
+local function FOWY_fake_script() -- craig_combo.LocalScript 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -544,16 +560,16 @@ local function BMHO_fake_script() -- craig_combo.LocalScript
 		game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
 	end)
 end
-coroutine.wrap(BMHO_fake_script)()
-local function EOXR_fake_script() -- craig_combo.SoundOnClick 
+coroutine.wrap(FOWY_fake_script)()
+local function RFSNVSE_fake_script() -- craig_combo.SoundOnClick 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(EOXR_fake_script)()
-local function CBFFTE_fake_script() -- stick.LocalScript 
+coroutine.wrap(RFSNVSE_fake_script)()
+local function FNER_fake_script() -- stick.LocalScript 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -567,28 +583,28 @@ local function CBFFTE_fake_script() -- stick.LocalScript
 	end)
 	
 end
-coroutine.wrap(CBFFTE_fake_script)()
-local function IZPB_fake_script() -- stick.SoundOnClick 
+coroutine.wrap(FNER_fake_script)()
+local function NNIMJ_fake_script() -- stick.SoundOnClick 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(IZPB_fake_script)()
-local function ZBQZ_fake_script() -- Close.LocalScript 
+coroutine.wrap(NNIMJ_fake_script)()
+local function OVEOXY_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Cmds.Visible=false
 	end)
 end
-coroutine.wrap(ZBQZ_fake_script)()
-local function EDNON_fake_script() -- Close.SoundOnClick 
+coroutine.wrap(OVEOXY_fake_script)()
+local function OOVU_fake_script() -- Close.SoundOnClick 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(EDNON_fake_script)()
+coroutine.wrap(OOVU_fake_script)()
