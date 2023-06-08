@@ -340,8 +340,20 @@ local function YKQFOE_fake_script() -- ScreenGui.LocalScript
 	
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if string.sub(msg:lower(), 0, 4) == ";gui" then
-			script.Parent.CommandFrame.Active=true
-			script.Parent.CommandFrame.Visible=true
+                  local ScreenGui = Instance.new("ScreenGui")
+                  local CommandFrame = Instance.new("Frame")
+                  local UICorner = Instance.new("UICorner")
+                  local UIGradient = Instance.new("UIGradient")
+                  local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+                  local TextLabel = Instance.new("TextLabel")
+                  local TextButton = Instance.new("TextButton")
+                  local UIGradient_2 = Instance.new("UIGradient")
+                  local Cmds = Instance.new("ScrollingFrame")
+                  local UIGradient_3 = Instance.new("UIGradient")
+                  local help = Instance.new("TextButton")
+                  local craig_combo = Instance.new("TextButton")
+                  local stick = Instance.new("TextButton")
+                  local Close = Instance.new("TextButton")
 		end
 	end)
 	
