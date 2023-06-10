@@ -389,7 +389,7 @@ Close_3.TextSize = 60.000
 
 -- Scripts:
 
-local function ZTGAK_fake_script() -- help.LocalScript 
+local function PUAZNBO_fake_script() -- help.LocalScript 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -422,16 +422,16 @@ local function ZTGAK_fake_script() -- help.LocalScript
 		game.Players:Chat("size me 0.3")
 	end)
 end
-coroutine.wrap(ZTGAK_fake_script)()
-local function WRMJCMR_fake_script() -- help.SoundOnClick 
+coroutine.wrap(PUAZNBO_fake_script)()
+local function ZALDGN_fake_script() -- help.SoundOnClick 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(WRMJCMR_fake_script)()
-local function XCYLYC_fake_script() -- craig_combo.LocalScript 
+coroutine.wrap(ZALDGN_fake_script)()
+local function OBIUZX_fake_script() -- craig_combo.LocalScript 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -440,16 +440,16 @@ local function XCYLYC_fake_script() -- craig_combo.LocalScript
 		game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
 	end)
 end
-coroutine.wrap(XCYLYC_fake_script)()
-local function AAWZ_fake_script() -- craig_combo.SoundOnClick 
+coroutine.wrap(OBIUZX_fake_script)()
+local function WBIQPYJ_fake_script() -- craig_combo.SoundOnClick 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(AAWZ_fake_script)()
-local function GUMSFB_fake_script() -- stick.LocalScript 
+coroutine.wrap(WBIQPYJ_fake_script)()
+local function QQHSHN_fake_script() -- stick.LocalScript 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -463,40 +463,40 @@ local function GUMSFB_fake_script() -- stick.LocalScript
 	end)
 	
 end
-coroutine.wrap(GUMSFB_fake_script)()
-local function CFHPLI_fake_script() -- stick.SoundOnClick 
+coroutine.wrap(QQHSHN_fake_script)()
+local function XKEQP_fake_script() -- stick.SoundOnClick 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(CFHPLI_fake_script)()
-local function XLLDCGA_fake_script() -- Close.LocalScript 
+coroutine.wrap(XKEQP_fake_script)()
+local function BUPA_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Cmds.Visible=false
 	end)
 end
-coroutine.wrap(XLLDCGA_fake_script)()
-local function PFHHPZ_fake_script() -- Close.SoundOnClick 
+coroutine.wrap(BUPA_fake_script)()
+local function DQZR_fake_script() -- Close.SoundOnClick 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(PFHHPZ_fake_script)()
-local function BSHHJN_fake_script() -- KitGamer.SoundOnClick 
+coroutine.wrap(DQZR_fake_script)()
+local function ZQRI_fake_script() -- KitGamer.SoundOnClick 
 	local script = Instance.new('LocalScript', KitGamer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(BSHHJN_fake_script)()
-local function RLCCM_fake_script() -- KitGamer.LocalScript 
+coroutine.wrap(ZQRI_fake_script)()
+local function PVNEYL_fake_script() -- KitGamer.LocalScript 
 	local script = Instance.new('LocalScript', KitGamer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -504,16 +504,16 @@ local function RLCCM_fake_script() -- KitGamer.LocalScript
 		game.Players:Chat("pm me Next time, try typing ;kit gamer in chat.")
 	end)
 end
-coroutine.wrap(RLCCM_fake_script)()
-local function DSAYMYH_fake_script() -- KitDangerous.SoundOnClick 
+coroutine.wrap(PVNEYL_fake_script)()
+local function TEVEGRB_fake_script() -- KitDangerous.SoundOnClick 
 	local script = Instance.new('LocalScript', KitDangerous)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(DSAYMYH_fake_script)()
-local function LCXVUOC_fake_script() -- KitDangerous.LocalScript 
+coroutine.wrap(TEVEGRB_fake_script)()
+local function DFHXSQM_fake_script() -- KitDangerous.LocalScript 
 	local script = Instance.new('LocalScript', KitDangerous)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -521,24 +521,24 @@ local function LCXVUOC_fake_script() -- KitDangerous.LocalScript
 		game.Players:Chat("pm me Next time, try typing ;kit dangerous in chat.")
 	end)
 end
-coroutine.wrap(LCXVUOC_fake_script)()
-local function JMGX_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(DFHXSQM_fake_script)()
+local function SDDPDY_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Kits.Visible=false
 	end)
 end
-coroutine.wrap(JMGX_fake_script)()
-local function NBKYF_fake_script() -- Close_2.SoundOnClick 
+coroutine.wrap(SDDPDY_fake_script)()
+local function DWLOMO_fake_script() -- Close_2.SoundOnClick 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(NBKYF_fake_script)()
-local function KKMBZT_fake_script() -- CraigScript.LocalScript 
+coroutine.wrap(DWLOMO_fake_script)()
+local function HXCK_fake_script() -- CraigScript.LocalScript 
 	local script = Instance.new('LocalScript', CraigScript)
 
 	repeat wait() until game.Loaded
@@ -973,8 +973,8 @@ local function KKMBZT_fake_script() -- CraigScript.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KKMBZT_fake_script)()
-local function QZOJPC_fake_script() -- Main.LocalScript 
+coroutine.wrap(HXCK_fake_script)()
+local function EXMK_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -982,8 +982,8 @@ local function QZOJPC_fake_script() -- Main.LocalScript
 		script.Parent.Parent.StuffCategory.Visible=false
 	end)
 end
-coroutine.wrap(QZOJPC_fake_script)()
-local function UBHDWK_fake_script() -- Stuff.LocalScript 
+coroutine.wrap(EXMK_fake_script)()
+local function DRIX_fake_script() -- Stuff.LocalScript 
 	local script = Instance.new('LocalScript', Stuff)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -991,8 +991,8 @@ local function UBHDWK_fake_script() -- Stuff.LocalScript
 		script.Parent.Parent.StuffCategory.Visible=true
 	end)
 end
-coroutine.wrap(UBHDWK_fake_script)()
-local function QTYLR_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(DRIX_fake_script)()
+local function QHSGV_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1001,4 +1001,62 @@ local function QTYLR_fake_script() -- Close_3.LocalScript
 		script.Parent.Parent.Parent.FrameMain.Visible=false
 	end)
 end
-coroutine.wrap(QTYLR_fake_script)()
+coroutine.wrap(QHSGV_fake_script)()
+local function OHOS_fake_script() -- FrameMain.Drag 
+	local script = Instance.new('LocalScript', FrameMain)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (5); --sppeeed bc im epic scripter hehehehhaw
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(OHOS_fake_script)()
