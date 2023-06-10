@@ -37,6 +37,8 @@ local TextLabel_12 = Instance.new("TextLabel")
 local TextLabel_13 = Instance.new("TextLabel")
 local TextLabel_14 = Instance.new("TextLabel")
 local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
 local Close_3 = Instance.new("TextButton")
 
 --Properties:
@@ -138,9 +140,9 @@ Close_2.TextSize = 14.000
 FrameMain.Name = "FrameMain"
 FrameMain.Parent = CraigScript
 FrameMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FrameMain.Position = UDim2.new(0.249550357, 0, 0.155487806, 0)
+FrameMain.Position = UDim2.new(0.127267748, 0, 0.155487761, 0)
 FrameMain.Selectable = true
-FrameMain.Size = UDim2.new(0, 482, 0, 284)
+FrameMain.Size = UDim2.new(0, 572, 0, 301)
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(139, 14, 5)), ColorSequenceKeypoint.new(0.18, Color3.fromRGB(218, 22, 8)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(222, 19, 8)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(139, 14, 5))}
 UIGradient_2.Parent = FrameMain
@@ -148,7 +150,7 @@ UIGradient_2.Parent = FrameMain
 TextLabel.Parent = FrameMain
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0, 0, 0.0211267546, 0)
+TextLabel.Position = UDim2.new(0.0751748234, 0, 0.00783771835, 0)
 TextLabel.Size = UDim2.new(0, 483, 0, 50)
 TextLabel.Font = Enum.Font.SciFi
 TextLabel.Text = "CRAIG SCRIPT"
@@ -181,6 +183,7 @@ MainCategory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainCategory.BackgroundTransparency = 0.900
 MainCategory.Position = UDim2.new(0.236514524, 0, 0.246478871, 0)
 MainCategory.Size = UDim2.new(0, 259, 0, 183)
+MainCategory.Visible = false
 
 TextLabel_2.Parent = MainCategory
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -228,9 +231,8 @@ StuffCategory.Name = "StuffCategory"
 StuffCategory.Parent = FrameMain
 StuffCategory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 StuffCategory.BackgroundTransparency = 0.900
-StuffCategory.Position = UDim2.new(0.236514524, 0, 0.221830979, 0)
-StuffCategory.Size = UDim2.new(0, 308, 0, 208)
-StuffCategory.Visible = false
+StuffCategory.Position = UDim2.new(0.153527007, 0, 0.176056236, 0)
+StuffCategory.Size = UDim2.new(0, 446, 0, 223)
 
 TextLabel_4.Parent = StuffCategory
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -247,7 +249,7 @@ TextLabel_4.TextWrapped = true
 TextLabel_5.Parent = StuffCategory
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.00393700786, 0, 0.174856573, 0)
+TextLabel_5.Position = UDim2.new(-0.00255649863, 0, 0.170372263, 0)
 TextLabel_5.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_5.Font = Enum.Font.SourceSans
 TextLabel_5.Text = ";crash"
@@ -307,7 +309,7 @@ TextLabel_9.TextWrapped = true
 TextLabel_10.Parent = StuffCategory
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(0.494273424, 0, 0.0220994484, 0)
+TextLabel_10.Position = UDim2.new(0.341438085, 0, 0.0220994484, 0)
 TextLabel_10.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_10.Font = Enum.Font.SourceSans
 TextLabel_10.Text = ";cube [plr]"
@@ -319,7 +321,7 @@ TextLabel_10.TextWrapped = true
 TextLabel_11.Parent = StuffCategory
 TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(0.494273424, 0, 0.171137914, 0)
+TextLabel_11.Position = UDim2.new(0.341438115, 0, 0.166653603, 0)
 TextLabel_11.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_11.Font = Enum.Font.SourceSans
 TextLabel_11.Text = ";kit [kit]"
@@ -331,7 +333,7 @@ TextLabel_11.TextWrapped = true
 TextLabel_12.Parent = StuffCategory
 TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.494273424, 0, 0.344214857, 0)
+TextLabel_12.Position = UDim2.new(0.341438115, 0, 0.339730561, 0)
 TextLabel_12.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_12.Font = Enum.Font.SourceSans
 TextLabel_12.Text = ";spam [cmd]"
@@ -343,7 +345,7 @@ TextLabel_12.TextWrapped = true
 TextLabel_13.Parent = StuffCategory
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(0.494273424, 0, 0.498061001, 0)
+TextLabel_13.Position = UDim2.new(0.341438115, 0, 0.502545297, 0)
 TextLabel_13.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_13.Font = Enum.Font.SourceSans
 TextLabel_13.Text = ";stop"
@@ -355,7 +357,7 @@ TextLabel_13.TextWrapped = true
 TextLabel_14.Parent = StuffCategory
 TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.Position = UDim2.new(0.494273424, 0, 0.651907146, 0)
+TextLabel_14.Position = UDim2.new(0.341438115, 0, 0.665360034, 0)
 TextLabel_14.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_14.Font = Enum.Font.SourceSans
 TextLabel_14.Text = ";spamkill [plr]"
@@ -367,7 +369,7 @@ TextLabel_14.TextWrapped = true
 TextLabel_15.Parent = StuffCategory
 TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.Position = UDim2.new(0.494273424, 0, 0.796137929, 0)
+TextLabel_15.Position = UDim2.new(0.341438115, 0, 0.805106521, 0)
 TextLabel_15.Size = UDim2.new(0, 140, 0, 32)
 TextLabel_15.Font = Enum.Font.SourceSans
 TextLabel_15.Text = ";stop_killspam"
@@ -375,6 +377,30 @@ TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_15.TextScaled = true
 TextLabel_15.TextSize = 14.000
 TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = StuffCategory
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.666550219, 0, 0.168335199, 0)
+TextLabel_16.Size = UDim2.new(0, 140, 0, 32)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ";nolag"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = StuffCategory
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.653097332, 0, 0.518110991, 0)
+TextLabel_17.Size = UDim2.new(0, 140, 0, 32)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ";gui"
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
 
 Close_3.Name = "Close"
 Close_3.Parent = FrameMain
@@ -385,11 +411,11 @@ Close_3.Size = UDim2.new(0, 52, 0, 50)
 Close_3.Font = Enum.Font.Unknown
 Close_3.Text = "X"
 Close_3.TextColor3 = Color3.fromRGB(253, 2, 2)
-Close_3.TextSize = 60.000
+Close_3.TextSize = 40.000
 
 -- Scripts:
 
-local function PUAZNBO_fake_script() -- help.LocalScript 
+local function XQGST_fake_script() -- help.LocalScript 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -422,16 +448,16 @@ local function PUAZNBO_fake_script() -- help.LocalScript
 		game.Players:Chat("size me 0.3")
 	end)
 end
-coroutine.wrap(PUAZNBO_fake_script)()
-local function ZALDGN_fake_script() -- help.SoundOnClick 
+coroutine.wrap(XQGST_fake_script)()
+local function YPXVFH_fake_script() -- help.SoundOnClick 
 	local script = Instance.new('LocalScript', help)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(ZALDGN_fake_script)()
-local function OBIUZX_fake_script() -- craig_combo.LocalScript 
+coroutine.wrap(YPXVFH_fake_script)()
+local function CJYXJX_fake_script() -- craig_combo.LocalScript 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -440,16 +466,16 @@ local function OBIUZX_fake_script() -- craig_combo.LocalScript
 		game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
 	end)
 end
-coroutine.wrap(OBIUZX_fake_script)()
-local function WBIQPYJ_fake_script() -- craig_combo.SoundOnClick 
+coroutine.wrap(CJYXJX_fake_script)()
+local function RUUGH_fake_script() -- craig_combo.SoundOnClick 
 	local script = Instance.new('LocalScript', craig_combo)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(WBIQPYJ_fake_script)()
-local function QQHSHN_fake_script() -- stick.LocalScript 
+coroutine.wrap(RUUGH_fake_script)()
+local function NQEXZY_fake_script() -- stick.LocalScript 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -463,40 +489,40 @@ local function QQHSHN_fake_script() -- stick.LocalScript
 	end)
 	
 end
-coroutine.wrap(QQHSHN_fake_script)()
-local function XKEQP_fake_script() -- stick.SoundOnClick 
+coroutine.wrap(NQEXZY_fake_script)()
+local function ZBTUEK_fake_script() -- stick.SoundOnClick 
 	local script = Instance.new('LocalScript', stick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(XKEQP_fake_script)()
-local function BUPA_fake_script() -- Close.LocalScript 
+coroutine.wrap(ZBTUEK_fake_script)()
+local function UNOSPF_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Cmds.Visible=false
 	end)
 end
-coroutine.wrap(BUPA_fake_script)()
-local function DQZR_fake_script() -- Close.SoundOnClick 
+coroutine.wrap(UNOSPF_fake_script)()
+local function VFUKYI_fake_script() -- Close.SoundOnClick 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(DQZR_fake_script)()
-local function ZQRI_fake_script() -- KitGamer.SoundOnClick 
+coroutine.wrap(VFUKYI_fake_script)()
+local function TUXIM_fake_script() -- KitGamer.SoundOnClick 
 	local script = Instance.new('LocalScript', KitGamer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(ZQRI_fake_script)()
-local function PVNEYL_fake_script() -- KitGamer.LocalScript 
+coroutine.wrap(TUXIM_fake_script)()
+local function GRQC_fake_script() -- KitGamer.LocalScript 
 	local script = Instance.new('LocalScript', KitGamer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -504,16 +530,16 @@ local function PVNEYL_fake_script() -- KitGamer.LocalScript
 		game.Players:Chat("pm me Next time, try typing ;kit gamer in chat.")
 	end)
 end
-coroutine.wrap(PVNEYL_fake_script)()
-local function TEVEGRB_fake_script() -- KitDangerous.SoundOnClick 
+coroutine.wrap(GRQC_fake_script)()
+local function ONDDSQ_fake_script() -- KitDangerous.SoundOnClick 
 	local script = Instance.new('LocalScript', KitDangerous)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(TEVEGRB_fake_script)()
-local function DFHXSQM_fake_script() -- KitDangerous.LocalScript 
+coroutine.wrap(ONDDSQ_fake_script)()
+local function DRVCBN_fake_script() -- KitDangerous.LocalScript 
 	local script = Instance.new('LocalScript', KitDangerous)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -521,24 +547,24 @@ local function DFHXSQM_fake_script() -- KitDangerous.LocalScript
 		game.Players:Chat("pm me Next time, try typing ;kit dangerous in chat.")
 	end)
 end
-coroutine.wrap(DFHXSQM_fake_script)()
-local function SDDPDY_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(DRVCBN_fake_script)()
+local function HGYS_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Kits.Visible=false
 	end)
 end
-coroutine.wrap(SDDPDY_fake_script)()
-local function DWLOMO_fake_script() -- Close_2.SoundOnClick 
+coroutine.wrap(HGYS_fake_script)()
+local function SCRBGW_fake_script() -- Close_2.SoundOnClick 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Sound:Play()
 	end)
 end
-coroutine.wrap(DWLOMO_fake_script)()
-local function HXCK_fake_script() -- CraigScript.LocalScript 
+coroutine.wrap(SCRBGW_fake_script)()
+local function LHIQQUT_fake_script() -- CraigScript.LocalScript 
 	local script = Instance.new('LocalScript', CraigScript)
 
 	repeat wait() until game.Loaded
@@ -973,8 +999,8 @@ local function HXCK_fake_script() -- CraigScript.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HXCK_fake_script)()
-local function EXMK_fake_script() -- Main.LocalScript 
+coroutine.wrap(LHIQQUT_fake_script)()
+local function EWYMWT_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -982,8 +1008,8 @@ local function EXMK_fake_script() -- Main.LocalScript
 		script.Parent.Parent.StuffCategory.Visible=false
 	end)
 end
-coroutine.wrap(EXMK_fake_script)()
-local function DRIX_fake_script() -- Stuff.LocalScript 
+coroutine.wrap(EWYMWT_fake_script)()
+local function CDMNZC_fake_script() -- Stuff.LocalScript 
 	local script = Instance.new('LocalScript', Stuff)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -991,8 +1017,8 @@ local function DRIX_fake_script() -- Stuff.LocalScript
 		script.Parent.Parent.StuffCategory.Visible=true
 	end)
 end
-coroutine.wrap(DRIX_fake_script)()
-local function QHSGV_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(CDMNZC_fake_script)()
+local function URWGRG_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1001,8 +1027,8 @@ local function QHSGV_fake_script() -- Close_3.LocalScript
 		script.Parent.Parent.Parent.FrameMain.Visible=false
 	end)
 end
-coroutine.wrap(QHSGV_fake_script)()
-local function OHOS_fake_script() -- FrameMain.Drag 
+coroutine.wrap(URWGRG_fake_script)()
+local function SRRYSC_fake_script() -- FrameMain.Drag 
 	local script = Instance.new('LocalScript', FrameMain)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1059,4 +1085,4 @@ local function OHOS_fake_script() -- FrameMain.Drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(OHOS_fake_script)()
+coroutine.wrap(SRRYSC_fake_script)()
