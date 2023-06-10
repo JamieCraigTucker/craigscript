@@ -175,7 +175,201 @@ Close_2.TextSize = 14.000
 
 -- Scripts:
 
-local function KSTBYD_fake_script() -- CraigScript.LocalScript 
+local function NDZV_fake_script() -- CmdButtons.SoundOnClick 
+	local script = Instance.new('LocalScript', CmdButtons)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(NDZV_fake_script)()
+local function XCXOHBB_fake_script() -- CmdButtons.Open 
+	local script = Instance.new('LocalScript', CmdButtons)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Cmds.Visible=true
+	end)
+end
+coroutine.wrap(XCXOHBB_fake_script)()
+local function RSCUFGD_fake_script() -- CommandFrame.Always Visible 
+	local script = Instance.new('LocalScript', CommandFrame)
+
+	n=0
+	
+	
+	while n == 0 do
+		script.Parent.Parent.CommandFrame.Visible=true
+		wait(1)
+		script.Parent.Parent.CommandFrame.Visible=true
+	end
+end
+coroutine.wrap(RSCUFGD_fake_script)()
+local function SXXLG_fake_script() -- Kits.Open 
+	local script = Instance.new('LocalScript', Kits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Kits.Visible=true
+	end)
+end
+coroutine.wrap(SXXLG_fake_script)()
+local function BYLMAJ_fake_script() -- Kits.SoundOnClick 
+	local script = Instance.new('LocalScript', Kits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(BYLMAJ_fake_script)()
+local function BIAWO_fake_script() -- help.LocalScript 
+	local script = Instance.new('LocalScript', help)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players:Chat("gear me 94794847")
+		game.Players:Chat("unblind all")
+		game.Players:Chat("clr")
+		game.Players:Chat("name all Crashed by Craig Script")
+		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack:WaitForChild("VampireVanquisher"))
+		game.Players:Chat("h [Craig Script] Get better, crashed.")
+		wait(0.1)
+		game.Players:Chat("name all Crashed by Craig Script")
+		game.Players:Chat("name all Crashed by Craig Script")
+		game.Players:Chat("name all Crashed by Craig Script")
+		game.Players:Chat("name all Crashed by Craig Script")
+		game.Players:Chat("clr")
+		game.Players:Chat("clr")
+		game.Players:Chat("clr")
+		game.Players:Chat("clr")
+		game.Players:Chat("clr")
+		game.Players:Chat("h [Craig Script] Get better, crashed.")
+		game.Players:Chat("h [Craig Script] Get better, crashed.")
+		game.Players:Chat("h [Craig Script] Get better, crashed.")
+		wait(0.06)
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+		game.Players:Chat("size me 0.3")
+	end)
+end
+coroutine.wrap(BIAWO_fake_script)()
+local function HXSQLD_fake_script() -- help.SoundOnClick 
+	local script = Instance.new('LocalScript', help)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(HXSQLD_fake_script)()
+local function QZVPBR_fake_script() -- craig_combo.LocalScript 
+	local script = Instance.new('LocalScript', craig_combo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players:Chat("h [Craig Script] FNaF Music + Gear given.")
+		game.Players:Chat("gear me 000000000000000000000000000000000000000000000000000000000000000000000000000236438668")
+		game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
+	end)
+end
+coroutine.wrap(QZVPBR_fake_script)()
+local function ZJNO_fake_script() -- craig_combo.SoundOnClick 
+	local script = Instance.new('LocalScript', craig_combo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(ZJNO_fake_script)()
+local function QSEWL_fake_script() -- stick.LocalScript 
+	local script = Instance.new('LocalScript', stick)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	    game.Players:Chat("sit me")
+	    wait(0.05)
+	    game.Players:Chat("punish me")
+	    wait(0.05)
+	    game.Players:Chat("jump me")
+	    wait(0.05)
+		game.Players:Chat("unpunish me")
+	end)
+	
+end
+coroutine.wrap(QSEWL_fake_script)()
+local function WKYRBFY_fake_script() -- stick.SoundOnClick 
+	local script = Instance.new('LocalScript', stick)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(WKYRBFY_fake_script)()
+local function EYTJ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Cmds.Visible=false
+	end)
+end
+coroutine.wrap(EYTJ_fake_script)()
+local function RJRLJQJ_fake_script() -- Close.SoundOnClick 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(RJRLJQJ_fake_script)()
+local function JEJUDBC_fake_script() -- KitGamer.SoundOnClick 
+	local script = Instance.new('LocalScript', KitGamer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(JEJUDBC_fake_script)()
+local function JQUAA_fake_script() -- KitGamer.LocalScript 
+	local script = Instance.new('LocalScript', KitGamer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players:Chat(";kit gamer")
+		game.Players:Chat("pm me Next time, try typing ;kit gamer in chat.")
+	end)
+end
+coroutine.wrap(JQUAA_fake_script)()
+local function VKTGH_fake_script() -- KitDangerous.SoundOnClick 
+	local script = Instance.new('LocalScript', KitDangerous)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(VKTGH_fake_script)()
+local function TMAY_fake_script() -- KitDangerous.LocalScript 
+	local script = Instance.new('LocalScript', KitDangerous)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players:Chat(";kit dangerous")
+		game.Players:Chat("pm me Next time, try typing ;kit dangerous in chat.")
+	end)
+end
+coroutine.wrap(TMAY_fake_script)()
+local function LZRNPY_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Kits.Visible=false
+	end)
+end
+coroutine.wrap(LZRNPY_fake_script)()
+local function TEJCYM_fake_script() -- Close_2.SoundOnClick 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(TEJCYM_fake_script)()
+local function NPSLSK_fake_script() -- CraigScript.LocalScript 
 	local script = Instance.new('LocalScript', CraigScript)
 
 	repeat wait() until game.Loaded
@@ -190,6 +384,7 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 	gearbanned = false
 	musicbanned = false
 	kicking=false
+	lagging = false
 	print("\n\n;help - Crash\n;craig_combo - Use it and see\n;stop_killspam - Stop spamkilling")
 	print("\n;announce [txt] - Announce smth\n;killspam [plr] - Killspam someone\n;spam [cmd] [plr] - Spam smth")
 	print("\n;kill_v2 [plr] - Kill someone in a different way\n;stop - Stop spam\n;cube [plr] - Make someone a cube")
@@ -494,7 +689,7 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 			game.Players:Chat("size "..text.. " 1.3")
 			game.Players:Chat("removelimbs "..text)
 			game.Players:Chat("name "..text.. " Cubed by Craig Script")
-			
+	
 	
 		end
 	end)
@@ -513,7 +708,7 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 	
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if string.sub(msg:lower(), 0, 10) == ";unbangear" then
-			
+	
 			gearbanned=false
 			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[Craig Script]\nGear Unbanned.")
 		end
@@ -532,7 +727,7 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 	
 	game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if string.sub(msg:lower(), 0, 11) == ";unbanmusic" then
-			
+	
 			musicbanned=false
 			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[Craig Script]\nMusic Unbanned.")
 		end
@@ -555,8 +750,8 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 				wait(0.3)
 				game.Players:Chat("ungear "..text)
 				wait(0.05)
-				
-				
+	
+	
 			end
 		end
 	end)
@@ -567,7 +762,7 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 			game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[Craig Script]\nYay EVERYONE Got Un-Kicked? ")
 			game.Players:Chat("respawn all")
 	
-			
+	
 		end
 	end)
 	
@@ -588,207 +783,40 @@ local function KSTBYD_fake_script() -- CraigScript.LocalScript
 			else
 				game.Players:Chat("pm me Invalid kit, try ;kit gamer")
 			end
-		
-			
-			
+	
+	
+	
 	
 	
 		end
 	end)
 	
-end
-coroutine.wrap(KSTBYD_fake_script)()
-local function SZHHL_fake_script() -- CmdButtons.SoundOnClick 
-	local script = Instance.new('LocalScript', CmdButtons)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 4) == ";lag" then
+			local text = string.sub(msg:lower(), 6)
+			lagging = true
+			while lagging == true do
+				game.Players:Chat("shield/"..text)
+				game.Players:Chat("spin "..text)
+				game.Players:Chat("jail/"..text)
+				game.Players:Chat("smoke "..text)
+				game.Players:Chat("fire "..text)
+				game.Players:Chat("bonfire "..text)
+				game.Players:Chat("sparkles "..text)
+	
+			end
+	
+		end
 	end)
-end
-coroutine.wrap(SZHHL_fake_script)()
-local function KSVWN_fake_script() -- CmdButtons.Open 
-	local script = Instance.new('LocalScript', CmdButtons)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Cmds.Visible=true
-	end)
-end
-coroutine.wrap(KSVWN_fake_script)()
-local function ZSYECW_fake_script() -- CommandFrame.Always Visible 
-	local script = Instance.new('LocalScript', CommandFrame)
-
-	n=0
 	
 	
-	while n == 0 do
-		script.Parent.Parent.CommandFrame.Visible=true
-		wait(1)
-		script.Parent.Parent.CommandFrame.Visible=true
-	end
-end
-coroutine.wrap(ZSYECW_fake_script)()
-local function EUBY_fake_script() -- Kits.Open 
-	local script = Instance.new('LocalScript', Kits)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Kits.Visible=true
-	end)
-end
-coroutine.wrap(EUBY_fake_script)()
-local function IRTSZF_fake_script() -- Kits.SoundOnClick 
-	local script = Instance.new('LocalScript', Kits)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(IRTSZF_fake_script)()
-local function UMOEZD_fake_script() -- help.LocalScript 
-	local script = Instance.new('LocalScript', help)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players:Chat("gear me 94794847")
-		game.Players:Chat("unblind all")
-		game.Players:Chat("clr")
-		game.Players:Chat("name all Crashed by Craig Script")
-		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack:WaitForChild("VampireVanquisher"))
-		game.Players:Chat("h [Craig Script] Get better, crashed.")
-		wait(0.1)
-		game.Players:Chat("name all Crashed by Craig Script")
-		game.Players:Chat("name all Crashed by Craig Script")
-		game.Players:Chat("name all Crashed by Craig Script")
-		game.Players:Chat("name all Crashed by Craig Script")
-		game.Players:Chat("clr")
-		game.Players:Chat("clr")
-		game.Players:Chat("clr")
-		game.Players:Chat("clr")
-		game.Players:Chat("clr")
-		game.Players:Chat("h [Craig Script] Get better, crashed.")
-		game.Players:Chat("h [Craig Script] Get better, crashed.")
-		game.Players:Chat("h [Craig Script] Get better, crashed.")
-		wait(0.06)
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-		game.Players:Chat("size me 0.3")
-	end)
-end
-coroutine.wrap(UMOEZD_fake_script)()
-local function EKHYO_fake_script() -- help.SoundOnClick 
-	local script = Instance.new('LocalScript', help)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(EKHYO_fake_script)()
-local function RXRSY_fake_script() -- craig_combo.LocalScript 
-	local script = Instance.new('LocalScript', craig_combo)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players:Chat("h [Craig Script] FNaF Music + Gear given.")
-		game.Players:Chat("gear me 000000000000000000000000000000000000000000000000000000000000000000000000000236438668")
-		game.Players:Chat("music 000000000000000000000000000000000000000000000000000000000000000000000000000006913550990")
-	end)
-end
-coroutine.wrap(RXRSY_fake_script)()
-local function KKRGNZ_fake_script() -- craig_combo.SoundOnClick 
-	local script = Instance.new('LocalScript', craig_combo)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(KKRGNZ_fake_script)()
-local function KQAJ_fake_script() -- stick.LocalScript 
-	local script = Instance.new('LocalScript', stick)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	    game.Players:Chat("sit me")
-	    wait(0.05)
-	    game.Players:Chat("punish me")
-	    wait(0.05)
-	    game.Players:Chat("jump me")
-	    wait(0.05)
-		game.Players:Chat("unpunish me")
-	end)
 	
-end
-coroutine.wrap(KQAJ_fake_script)()
-local function QDOD_fake_script() -- stick.SoundOnClick 
-	local script = Instance.new('LocalScript', stick)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
+	game.Players.LocalPlayer.Chatted:Connect(function(msg)
+		if string.sub(msg:lower(), 0, 6) == ";nolag" then
+			local text = string.sub(msg:lower(), 8)
+			lagging = false
+	
+		end
 	end)
 end
-coroutine.wrap(QDOD_fake_script)()
-local function NQQMLS_fake_script() -- Close.LocalScript 
-	local script = Instance.new('LocalScript', Close)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Cmds.Visible=false
-	end)
-end
-coroutine.wrap(NQQMLS_fake_script)()
-local function FUKZYF_fake_script() -- Close.SoundOnClick 
-	local script = Instance.new('LocalScript', Close)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(FUKZYF_fake_script)()
-local function BHXPC_fake_script() -- KitGamer.SoundOnClick 
-	local script = Instance.new('LocalScript', KitGamer)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(BHXPC_fake_script)()
-local function RMETQQZ_fake_script() -- KitGamer.LocalScript 
-	local script = Instance.new('LocalScript', KitGamer)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players:Chat(";kit gamer")
-		game.Players:Chat("pm me Next time, try typing ;kit gamer in chat.")
-	end)
-end
-coroutine.wrap(RMETQQZ_fake_script)()
-local function SUWWD_fake_script() -- KitDangerous.SoundOnClick 
-	local script = Instance.new('LocalScript', KitDangerous)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(SUWWD_fake_script)()
-local function RCOGQ_fake_script() -- KitDangerous.LocalScript 
-	local script = Instance.new('LocalScript', KitDangerous)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players:Chat(";kit dangerous")
-		game.Players:Chat("pm me Next time, try typing ;kit dangerous in chat.")
-	end)
-end
-coroutine.wrap(RCOGQ_fake_script)()
-local function HVIZLO_fake_script() -- Close_2.LocalScript 
-	local script = Instance.new('LocalScript', Close_2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Kits.Visible=false
-	end)
-end
-coroutine.wrap(HVIZLO_fake_script)()
-local function XNJYF_fake_script() -- Close_2.SoundOnClick 
-	local script = Instance.new('LocalScript', Close_2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Sound:Play()
-	end)
-end
-coroutine.wrap(XNJYF_fake_script)()
+coroutine.wrap(NPSLSK_fake_script)()
